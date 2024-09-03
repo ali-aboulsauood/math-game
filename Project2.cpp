@@ -1,40 +1,3 @@
-/*
-Algorithms and Problem Solving - Level 2
-Project#2 - Math Game
-*/
-
-// Project Requirements
-/*
-(1) Prompt the user (henceforth referred to as the 'player' to enter the number of questions that are to be asked to them before the game is concluded. This can be any positive integer.
-(2) Prompt the player to select the difficulty level of the questions that are to be asked - there are three levels of difficulty and an option to allow the questions to vary between these three levels:
-	The level of difficulty determines the range from which the program chooses the operands of each question:
-	(1) Easy: The operands are in the range from 1 to 10 (inclusive)
-	(2) Medium: The operands are in the range from 11 to 50 (inclusive)
-	(3) Hard: The operands are in the range from 51 to 100 (inclusive)
-	There is a fourth option which basically allows questions to vary between the three aforementioned difficulty levels.
-(3) Prompt the player to select the type of the arithmetic operation to be performed in the questions to be asked - the options are the four elementary arithmetic operations (addition, subtraction, multiplication, division) in addition to an option to allow the operations to vary between these four.
-(4) In each question
-	(4 - 1) Display the number of the question and the total number of questions entered by the user, separated by a forward slash ('/').
-	(4 - 2) Display the operands and the operators of the operation of the question in an appropriate, user-friendly form.
-	(4 - 3) Prompt the user to enter what they believe is the result of evaluating the operation of the question (henceforth referred to as the 'user-calculated result' or 'answer', while the true result of the same operation is referred to as the 'actual result' or 'correct answer').
-	(4 - 4) After the user enters the result of evaluating the operation, if the user-calculated result is:
-			(4 - 4 - A) equal to the actual result, change the background color of the console to green and tell the user that their answer is correct.
-			(4 - 4 - B) not equal to the actual result, produce a bell and change the background color of the console to red and tell the user that their answer is incorrect, showing the correct answer.
-	(4 - 5) Repeat the previous steps under step (4) until all the questions have been displayed and answered by the user. (the total number of questions constitutes a 'quiz')
-(5) After all the questions have been displayed and answered by the user, if the number of questions that the user has answered correctly is:
-	(5 - A) smaller than the number of questions he has answered incorrectly, produce a bell and change the background color of the console to red and tell the user that they have failed the quiz.
-	(5 - B) greater than or equal to the number of questions he has answered incorrectly, produce a bell and change the background color of the console to green tell the user they have passed the quiz.
-(6) Display the following parameters in the following order:
-	Parameters:
-	(1) The total number of questions in the quiz.
-	(2) The difficulty level of the quiz.
-	(3) The arithmetic operation(s) used in the quiz.
-	(4) The number of right answers.
-	(5) The number of wrong answers.
-(7) Prompt the player to choose whether or not they wish to start a new quiz.
-	(7 - A) If the player so wishes, clear the console and reset its background color to the default.
-	(7 - B) If the player does not so wish, terminate the program.
-*/
 
 #include <iostream>
 #include <iomanip>
@@ -43,8 +6,6 @@ Project#2 - Math Game
 #include <cmath>
 #include <string>
 using namespace std;
-
-// Project
 
 string Tabs(unsigned short n)
 {
@@ -373,4 +334,6 @@ int main()
 	MGQuiz Quiz;
 
 	MathGame(Question, Quiz);
+
+	return 0;
 }

@@ -6,7 +6,7 @@ This is a simple practice project for a game of elementary math questions - writ
 
 ## Installation and Launch
 
-Download `MathGame.exe` and run the executable (the <i>game</i>).
+Download [`MathGame.exe`](https://github.com/ali-aboulsauood/math-game/blob/main/MathGame.exe) and run the executable (the <i>game</i>).
 
 ## Rules and Instructions
 
@@ -60,9 +60,17 @@ Download `MathGame.exe` and run the executable (the <i>game</i>).
 <br>
 
 After answering the number of questions you have specified, the console background color becomes green if you passed the quiz (the number of correct answers is greater than or equal to that of the incorrect answers), and red otherwise.\
-A Game Over screen is displayed, showing the number of questions, difficulty level, arithmetic operation, and the number of correct and incorrect answers.
+A Game Over screen shows the number of questions, difficulty level, arithmetic operation, and the number of correct and incorrect answers. there is an option to start a new quiz.
 
-## Suggestions
+## Future Updates
+Allah willing, the game is going to have both console and GUI editions, and the following features:
+
+1. A time limit for each question, depending on the difficulty and arithmetic operation of each question.
+2. An option to export quiz results to a text file or an HTML file.
+3. An option to start a new quiz with the same difficulty and arithmetic operation chosen for the last quiz.
+3. An option to keep a record of all quizzes taken by the user, which can be used to generate a report of the player's performance over multiple quizzes.
+
+## Suggestions and Contributions
 If you have any suggestions regarding the program, feel free to [email me](aliaboulsauood@gmail.com) or message me [LinkedIn](https://github.com/ali-aboulsauood/ali-aboulsauood/blob/main/www.linkedin.com/in/ali-aboul-sauood).
 
-If you are a programmer or still learning to program, feel free to contribute to my project: [Math Game Github Repository](https://github.com/ali-aboulsauood/math-game)
+If you are a programmer or still learning to program, feel free to contribute to my project: [Math Game Github Repository](https://github.com/ali-aboulsauood/math-game).

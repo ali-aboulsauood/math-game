@@ -1,8 +1,7 @@
 # Math Game
 
-<i>This project was created as part of a [course](https://programmingadvices.com/p/00316b1111) offered by [ProgrammingAdvices](https::\\programmingadvices.com).</i>
-
 This is a simple practice project for a game of elementary math questions - written in C++.
+<i>This project was created as part of a [course](https://programmingadvices.com/p/00316b1111) offered by [ProgrammingAdvices](https::\\programmingadvices.com).</i>
 
 ## Installation and Launch
 
